@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+.header{    
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    align-items: flex-start;
+    justify-content: space-around;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(0, 122, 255);
+    text-decoration: none;
+    transition: 300ms ease-in-out;
+    font-size: 1.2rem;
+}
+
+.links{
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+ .header a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+.header a:hover{
+    background-color: #f2f2f2;
+}
+
+.header a:active{
+    background-color: #e3e3e3;
+}
+
+#logo{
+    width: 250px;
+    margin-top: 7px;
+}
+
+#logoContainer:active, #logoContainer:hover{
+    background-color: inherit;
+}
+
